@@ -5,7 +5,7 @@
     <!-- Trigger the modal with a button -->
       <div class="rows">
          <button type="button" class="btn btn-info float-right" data-toggle="modal" data-target="#myModal">New Task</button>
-      </div>
+      </div><br>
 
       <div class="rows">
     <!-- Modal -->

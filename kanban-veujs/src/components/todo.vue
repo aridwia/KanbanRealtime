@@ -30,8 +30,8 @@
                  </div>
                  <div class="modal-footer">
                    <button type="button" class="btn btn-danger" data-dismiss="modal" @click="hapusdata(datatodo['.key'])">Delete</button>
-                   <button type="button" class="btn btn-warning" @click="pindahBackLog(datatodo['.key'],datatodo.title,datatodo.description,datatodo.point,datatodo.assignedto  )">Back Log</button>
-                   <button type="button" class="btn btn-warning" @click="pindahDoing(datatodo['.key'],datatodo.title,datatodo.description,datatodo.point,datatodo.assignedto  )">Doing</button>
+                   <button type="button" data-dismiss="modal" class="btn btn-warning" @click="pindahBackLog(datatodo['.key'],datatodo.title,datatodo.description,datatodo.point,datatodo.assignedto  )">Back Log</button>
+                   <button type="button" data-dismiss="modal" class="btn btn-warning" @click="pindahDoing(datatodo['.key'],datatodo.title,datatodo.description,datatodo.point,datatodo.assignedto  )">Doing</button>
                  </div>
                </div>
              </div>

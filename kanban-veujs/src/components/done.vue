@@ -30,8 +30,8 @@
                  </div>
                  <div class="modal-footer">
                    <button type="button" class="btn btn-danger" data-dismiss="modal" @click="hapusdata(datadone['.key'])">Delete</button>
-                   <button type="button" class="btn btn-warning" @click="pindahDoing(datadone['.key'],datadone.title,datadone.description,datadone.point,datadone.assignedto  )">Doing</button>
-                   <button type="button" class="btn btn-warning" @click="done(datadone['.key'])">Done</button>
+                   <button type="button" data-dismiss="modal" class="btn btn-warning" @click="pindahDoing(datadone['.key'],datadone.title,datadone.description,datadone.point,datadone.assignedto  )">Doing</button>
+                   <button type="button" data-dismiss="modal" class="btn btn-warning" @click="done(datadone['.key'])">Task Done</button>
                  </div>
                </div>
              </div>

@@ -11,9 +11,9 @@
             <label>Point : {{data.point}}</label><br>
             <label>Assigned To : {{data.assignedto}}</label><br>
             <!-- <div class="rows"> -->
-               <button type="button" class="btn btn-info float-right" data-toggle="modal" data-target="#myModal2" @click="getdata(data)">Detail</button>
+               <button type="button" data-dismiss="modal" class="btn btn-info float-right" data-toggle="modal" data-target="#myModal2"  @click="getdata(data)">Detail</button>
 
-               <div class="modal fade" role="dialog" id="myModal2">
+               <div class="modal fade" role="dialog" id="myModal2" >
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -28,7 +28,7 @@
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-danger" data-dismiss="modal" @click="hapusdata(alltask['.key'])">Delete</button>
-                      <button type="button" class="btn btn-warning" @click="pindahToDo(alltask['.key'],alltask.title,alltask.description,alltask.point,alltask.assignedto  )">To Do</button>
+                      <button type="button" data-dismiss="modal" class="btn btn-warning" @click="pindahToDo(alltask['.key'],alltask.title,alltask.description,alltask.point,alltask.assignedto  )">To Do</button>
                     </div>
                   </div>
                 </div>

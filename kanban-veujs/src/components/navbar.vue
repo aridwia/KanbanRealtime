@@ -9,7 +9,9 @@
         <ul class="nav navbar-nav">
           <li><h3>Kanban</h3></li>
         </ul>
-        
+
+        <!-- <img src="../assets/Jiban.jpg" alt="" width="70px"> -->
+
         <!-- <ul class="nav navbar-nav navbar-right">
           <li><button type="button" name="button"></button></li>
         </ul> -->
