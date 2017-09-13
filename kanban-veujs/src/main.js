@@ -3,9 +3,19 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueFire from 'vuefire'
+import firebase from 'firebase'
 
+Vue.use(VueFire)
 Vue.config.productionTip = false
 
+var config = {
+  apiKey: 'AIzaSyA-BR9MGjt6bdRcZ-gmov1ynrjB3_ETKig',
+  authDomain: 'battle-ex-6f625.firebaseapp.com',
+  databaseURL: 'https://battle-ex-6f625.firebaseio.com'
+}
+firebase.initializeApp(config)
+Vue.prototype.$db = firebase.database()
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
