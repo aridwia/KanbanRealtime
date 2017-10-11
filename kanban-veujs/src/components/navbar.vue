@@ -7,14 +7,14 @@
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
         <ul class="nav navbar-nav">
-          <li><h3>Kanban</h3></li>
+          <li><h3>Kanban</h3><p>by:aridwia</p></li>
         </ul>
 
-        <!-- <img src="../assets/Jiban.jpg" alt="" width="70px"> -->
+        <ul class="nav navbar-nav navbar-right">
+        <img src="../assets/kanban.png" alt="" width="150px">
+      </ul>
 
-        <!-- <ul class="nav navbar-nav navbar-right">
-          <li><button type="button" name="button"></button></li>
-        </ul> -->
+          <!-- <li><button type="button" name="button"></button></li> -->
       </div>
   </div>
   </nav>
